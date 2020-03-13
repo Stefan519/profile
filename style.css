@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Open+Sans:wght@400;700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  background-color: white;
+  line-height: 32px;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  color: blue;
+  font-size: 32px;
+  font-weight: 200;
+}
+
+p {
+  color: #c3b59f;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+  font-weight: 900;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 0px 240px;
+  padding: 0px 0px;
+  background-color: gray;
+  text-align: center;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  border-radius: 4px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+
+@media (max-width: 1800px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 1440px;
+  }
+}
+@media (max-width: 1620px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 1080px;
+  }
+}
+@media (max-width: 1260px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 900px;
+  }
+}
